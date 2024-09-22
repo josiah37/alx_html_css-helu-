@@ -1,0 +1,125 @@
+header.hero {
+    height:1055px;
+    width:1448.15px;
+    position: relative;
+    background-image:
+        linear-gradient(rgba(41, 48, 61, 0),
+        rgba(24, 35, 51, 0.51),rgba(7, 22, 41, 1)),
+        url("../images/Object.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+    
+}
+.navbar{
+    width:1103.41px;
+    height:29.46px;
+    padding:20px 80px;
+    display:flex;
+    gap:600px;}
+.navbar ul{
+    display:flex;}
+.navbar ul li{
+    margin-left:50px;
+} 
+.navbar ul li .link{
+    text-decoration:none;
+    color:#fff;
+}
+.top {
+    color: #fff;
+    align-items: center;
+}
+
+.topposition {
+    position: absolute;
+    top: 250px;
+    left: 350px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #fff;
+}
+.top h1 {
+    font-weight: bold;
+    font-size: 120px;
+}
+  top .mintext:nth-child(2) {
+      left: 390px;
+  }
+  .top .mintext:nth-child(3) {
+      left: 460px;
+  }
+  .top .mintext:nth-child(4) {
+      left: 520px;
+  }
+ 
+.top .block{
+    display:block;
+}
+.top span.mintext {
+    color: #fff;
+    font-size: 16;
+    font-weight: bold;
+    margin: 120px 20px 20px 20px ;
+    padding: 0 230px;
+}
+.top .button {
+    left:410px;
+    margin: 190px ;
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color:#C271FF;
+    border:none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight:medium;
+}
+.engage{
+    margin:340px 0 420px 250px ;
+    font-size:27px;
+    font-family: 'Source Sans Pro' ,sans-serif;
+}
+.engage span{
+    color:#C271FF;
+    font-weight:bold;
+}
+.inssection{
+    
+    height: 1055px;
+   width: 1448.15px;
+    }
+.instructor{
+    width:1009px;
+    height:237px;
+    display:flex;
+    justify-content: space-between;
+    margin-top:500px;
+    left: 80px;
+    padding: 0 35px;
+
+}
+.instructorimg{
+   width:150px;
+   height:237px;
+   font-family: 'Source Sans Pro' ,sans-serif;
+}
+.instructorimg img{
+  width:150px;
+  height:150px;
+  border-radius:50%;
+}
+.instructorimg h3{
+  font-weight:bold;
+  font-size:18px;
+  margin-bottom: 4px;
+}
+.instructorimg p {
+    width:150px;
+    height:48px;
+   font-weight: italic;
+   font-size:16px;
+   line-height:20px;
+}
+/*.instructorimg p span{
+    text-align:ce
+}*/
