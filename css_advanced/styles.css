@@ -65,7 +65,7 @@ header.hero {
 }
 .top .button {
     left:410px;
-    margin: 190px ;
+    margin: 210px ;
     padding: 10px 15px;
     font-size: 16px;
     background-color:#C271FF;
@@ -96,6 +96,7 @@ header.hero {
     margin-top:500px;
     left: 80px;
     padding: 0 35px;
+    
 
 }
 .instructorimg{
@@ -119,7 +120,49 @@ header.hero {
    font-weight: italic;
    font-size:16px;
    line-height:20px;
+position: relative;
 }
-/*.instructorimg p span{
-    text-align:ce
-}*/
+/*second section*/
+.client{
+    position:absolute;
+    top:1050px;
+    margin-top:0px;
+    width:1447px;
+    height:392px;
+    background-color:#C271FF;
+    display:flex;
+    gap:5px;
+    color:#fff;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.imagebox {
+    margin:100px 20px 0px 300px;
+    width: 160px;
+    height: 160px;
+    
+    }
+
+.imgtext{
+    
+    width:943px;
+    height:160px;
+}
+.textsec2{
+   position: relative;
+}
+.textsec2 blockquote{
+margin: 100px 700px 50px 0px;
+ font-size: smaller;
+ line-height: 20px;
+ height:68px;
+ width:730px;
+}
+.textsec2 h3{
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 22px;
+}
+textsec2 h3 {
+    font-weight: italic;
+    font-size: 22px;
+}
