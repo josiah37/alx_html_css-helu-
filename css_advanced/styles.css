@@ -1,3 +1,10 @@
+*{
+    font-family: 'Source Sans Pro' ,sans-serif;
+}
+body{
+    overflow: hidden;
+    overflow-y: scroll;
+}
 header.hero {
     height:1055px;
     width:1448.15px;
@@ -36,7 +43,6 @@ header.hero {
     position: absolute;
     top: 250px;
     left: 350px;
-    font-family: 'Source Sans Pro', sans-serif;
     color: #fff;
 }
 .top h1 {
@@ -102,7 +108,6 @@ header.hero {
 .instructorimg{
    width:150px;
    height:237px;
-   font-family: 'Source Sans Pro' ,sans-serif;
 }
 .instructorimg img{
   width:150px;
@@ -134,7 +139,6 @@ position: relative;
     display:flex;
     gap:5px;
     color:#fff;
-    font-family: 'Source Sans Pro', sans-serif;
 }
 .imagebox {
     margin:100px 20px 0px 300px;
@@ -168,7 +172,7 @@ margin: 100px 700px 50px 0px;
     font-size: 22px;
     
 }
-        
+     /*section3*/   
         .tutorials {
             position: absolute;
             top:1500px;
@@ -176,7 +180,6 @@ margin: 100px 700px 50px 0px;
             margin-top: 0;
             text-align: center;
             padding: 40px 20px;
-            font-family: 'Source Sans Pro', sans-serif;
         }
     
         .tutorialshead {
@@ -191,8 +194,8 @@ margin: 100px 700px 50px 0px;
         .tutorial-grid {
             display: flex;
             justify-content: space-around;
-            gap: 20px;
-            flex-wrap: wrap;
+                gap: 20px;
+                flex-wrap: wrap;
         }
     
         .tutorial-card {
@@ -284,6 +287,79 @@ margin: 100px 700px 50px 0px;
             font-size: 12px;
             color: #C271FF;
             margin-top: 10px;
+        }.membership {
+          position: absolute;
+          top: 2050px;
+          width:1440px;
+          height:502px;
+          background-color:#071629;
+          color:#fff;
+        
         }
-    
+        .container{
+            width: 257px;
+            height:153px;
+            display: flex;
+           justify-content: start;
+           align-items: flex-end;
+           padding:60px 120px 110px 120px;
+           margin: 0 50px;
+           position:relative;
+        }
+         .regbutton{
+            height:44px;
+            width:162px;
+            position:absolute;
+            top:380px;
+            left:580px;
+            margin:20px 0;
+            color:#fff;
+            background-color: #C271FF;
+            border-radius: 20px;
+         }
+       
+        h3.mbrtext{
+            width:256px;
+            font-size: 18px;
+            font-weight:bold;
+            margin: 10px 0;
+        }
+           p.mbrchoice {
+        line-height:20px;
+        font-size: 14px;
+          }
+        .membership h2{
+            font-size: 32px;
+            text-align: center;
+            margin:40px 0;
+        }
+        .membership span{
+            color:#C271FF;
+        }
+
+     .mbrchioce{
+        width: 25%;
+        box-sizing: border-box;
+         }
+  .faq{
+    position:absolute;
+    top:2600px;
+  }
+        /*section4 this
+        /* section5*/
+       /* .row {
+          display: flex;
+            flex-wrap: wrap;
+        }
+        .column {
+            flex: 25%;
+            padding: 20px;
+        }
+    */
+   /* .membership{
+        position:absolute;
+       /* top: 1800px;*
+        width:920px;
+        height:707px;
+    }
     
