@@ -127,6 +127,7 @@ position: relative;
     position:absolute;
     top:1050px;
     margin-top:0px;
+    margin-bottom: 0px;
     width:1447px;
     height:392px;
     background-color:#C271FF;
@@ -162,7 +163,127 @@ margin: 100px 700px 50px 0px;
     margin-bottom: 5px;
     font-size: 22px;
 }
-textsec2 h3 {
+.textsec2 h3 {
     font-weight: italic;
     font-size: 22px;
+    
 }
+        
+        .tutorials {
+            position: absolute;
+            top:1500px;
+            box-sizing: border-box;
+            margin-top: 0;
+            text-align: center;
+            padding: 40px 20px;
+            font-family: 'Source Sans Pro', sans-serif;
+        }
+    
+        .tutorialshead {
+            font-size: 28px;
+            margin-bottom: 70px;
+        }
+    
+        .tutorialshead span {
+            color: #C271FF;
+        }
+    
+        .tutorial-grid {
+            display: flex;
+            justify-content: space-around;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+    
+        .tutorial-card {
+            background-color: #fff;
+            width: 220px;
+            padding: 20px;
+            text-align: left;
+        }
+    
+        .tutorial-image {
+            position: relative;
+            border-top-left-radius:10px;
+            border-top-right-radius: 10px;
+            overflow: hidden;
+        }
+    
+        .tutorial-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    
+        .play-overlay {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(255, 2555, 255, 1);
+            border-radius: 50%;
+            padding: 10px;
+        }
+    
+        .play-overlay img {
+            width: 30px;
+            height: 30px;
+        }
+    
+        .tutorial-card h3 {
+            font-size: 18px;
+            margin: 15px 0;
+        }
+    
+        .tutorial-card p {
+            font-size: 14px;
+            color:#575b60;
+            margin-bottom: 20px;
+            position: relative;
+        }
+        p.color{
+         position: absolute;
+         margin-top: 0%;
+          transform: translate(500%, -120%);
+        color: #C271FF;
+       text-align: right;
+        }
+    
+        .author {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            
+        }
+      
+       
+        .author img {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+    
+        .author h4 {
+            font-size: 14px;
+            color:#C271FF;
+        }
+    
+        .stars {
+            color: #C271FF;
+            display: flex;
+            justify-content: flex-start;
+        }
+    
+        .stars i {
+            color: #C271FF;
+            margin-right:5px;
+        }
+    
+        .time {
+            font-size: 12px;
+            color: #C271FF;
+            margin-top: 10px;
+        }
+    
+    
