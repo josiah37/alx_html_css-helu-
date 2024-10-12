@@ -1,0 +1,224 @@
+
+  * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+  }
+html{
+    font-size: 10px;
+    font-family: 'Source Sans Pro' , sans-serif;
+    color:#fff;
+}
+body{
+    overflow: hidden;
+}
+img{
+    width:100%;
+    max-width:100%;
+    display:block;
+}
+  
+nav{
+  
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10rem auto;
+    width: 100%;
+    z-index: 1000;
+    
+}
+.nav-list{
+    display:flex;
+    flex-direction: row;
+    gap: 1.6em;
+    padding-right: 20rem;
+    
+}
+.nav-item{
+    margin-top: 3rem;
+    margin-right: 1.6rem;
+}
+.nav-link{
+    padding-top: 1.4rem;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+.nav-link:hover {
+    color: #FF6565;
+}
+ .main-icon {
+    font-size: 2.5rem;
+    cursor: pointer;
+   display: none;
+   color:#fff;
+ }
+ 
+ 
+ .logo{
+    padding-top: 1rem;
+    margin-left: 20rem;
+    width: 16.1rem;
+    height:3.2rem;
+ }
+.hero{
+    width: 100%;
+   height: 100vh; 
+    background: url('images/headphones_hero_1.jpg') no-repeat center center/cover;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    text-align: center;  
+    padding: 1.9em;
+    position: absolute;
+    top:0;
+    left:0;
+   z-index: -1;
+    
+}
+#shake-checkbox{
+    display: none;
+}
+.hero-content{
+    z-index: 1rem;
+    margin: 8em 0;
+    padding: 14rem 20rem;
+    position: absolute;
+
+}
+.hero-content h1 {
+    height: max-content;
+    font-size: 3.2rem;
+    font-weight: bold;
+    
+}
+ .hero-content p{
+    font-size: 1.6rem;
+    padding:0 10rem;
+ }
+ 
+.hero-content .para1{
+    margin-bottom: 3rem;
+    font-weight: bold;
+}
+
+.cta{     
+    padding:1rem;
+padding-inline: 2em;
+margin-bottom:5rem ;
+font-size: 1.4rem;
+border-radius: 3rem; 
+border: none;
+background-color: #FF6565;
+color:#fff;
+transition: background-color 0.3s ease;
+}
+.cta:hover{
+    opacity: 0.9;
+} 
+.check{
+    display: none;
+}
+@media (max-width:992px) {
+    .nav-list {
+        padding-right: 3rem;
+    }
+
+        .nav-item {
+    
+            margin-right: 1rem;
+        }.logo {
+            margin-left: 4rem;
+            padding-top: 1.5rem;
+        }
+        .hero{
+        min-height:60rem;
+        }
+    .hero-content {
+        z-index: 1rem;
+         margin-top: 8em;
+         padding: 14rem 4rem;
+         position:absolute;
+         top:2em;
+        bottom: 1em;
+                }
+                 
+       .hero-content p {
+        padding: 0 1rem;
+      }
+           }
+
+     @media (max-width:378px) {
+       body{
+        overflow-y: scroll;
+       }
+       .main-icon{
+        position: absolute;
+        top:3rem;
+        left:2rem;
+         display: block;
+      }
+           .check:checked~.main-icon .open {
+               display: none;
+           }
+      .main-icon .close{
+        display: none;
+        
+      }
+ .check:checked~.main-icon .close {
+     display: block;
+     
+ }
+      .logo{
+        padding: 0.4 0.5rem;
+            width: 16.1rem;
+            height: 3.2rem;
+            margin: 1rem 5rem;
+      }
+         .hero{  
+            min-height:86.9rem; 
+       }
+        .hero-content h1{
+           position :absolute;
+           left: 0;
+           max-width:100%;
+           padding: 6rem 1rem;
+           max-height:4rem;  
+         }
+
+          .hero-content .para1 {
+             margin-top: 8em;
+             }
+     .hero-content .parainline {
+      position:absolute;
+      left:0;        }
+ 
+    .nav-list{
+      display:flex;
+      flex-direction:column ;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      top: 10%;
+      left: 0;
+      width:100%;
+      height: 0;
+      overflow: hidden;
+      transition: 0.3s ease;
+    }
+
+        .check:checked~.nav-list {
+            height: 20rem;
+            gap: 2rem;
+        }
+    .nav-link a{
+     transform : translateY(-5rem);
+       text-align: center;
+       transition: 0.3s ease;
+    }
+    .check:checked~.nav-link {
+        transform: translateY(0);
+    }
+}
+ 
